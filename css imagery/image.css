@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gold;
+}
+
+div.gallery{
+    margin: 5px;
+    border: 1px solid grey;
+    float: right;
+    width: 302px;
+
+}
+
+div.gallery:hover {
+    border: 5px solid white;
+    box-shadow: 2px;
+}
+
+div.gallery img{
+    width: 100%;
+    height: 100%;
+}
+
+div.disc {
+    padding: 15px;
+    text-align: center;
+}
+ 
+.gallery{
+    width: 100px;
+    height: 100px;
+    transition: width 2s;
+}
